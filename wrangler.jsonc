@@ -1,0 +1,32 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "otayori-maku",
+  "main": "src/worker.tsx",
+  "compatibility_date": "2026-07-27",
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [
+    {
+      "pattern": "otayori-maku.yhay81.com",
+      "custom_domain": true,
+    },
+  ],
+  "triggers": {
+    "crons": ["29 18 * * *"],
+  },
+  "observability": {
+    "enabled": true,
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "otayori-maku",
+      "database_id": "f64ee1b3-bb2c-4031-9d7c-c39f3890a1e2",
+      "migrations_dir": "migrations",
+    },
+  ],
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+  },
+}

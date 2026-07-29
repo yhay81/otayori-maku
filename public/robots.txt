@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /s/
+Disallow: /manage/
+Disallow: /overlay/
+Disallow: /api/
+
+Sitemap: https://otayori-maku.yhay81.com/sitemap.xml

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#13151a"/>
+      <stop offset="1" stop-color="#24232b"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="22" stdDeviation="24" flood-opacity=".28"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <path d="M0 500C250 420 365 620 625 520s345-23 575-80v190H0z" fill="#1c1f25"/>
+  <g transform="translate(86 92)">
+    <rect width="445" height="428" rx="28" fill="#f5f2eb" filter="url(#shadow)"/>
+    <circle cx="34" cy="33" r="6" fill="#ff735d"/>
+    <circle cx="54" cy="33" r="6" fill="#efbf48"/>
+    <circle cx="74" cy="33" r="6" fill="#69c783"/>
+    <text x="104" y="41" fill="#26272c" font-family="sans-serif" font-size="18" font-weight="700">受信トレイ</text>
+    <g transform="translate(28 76)">
+      <rect width="389" height="88" rx="16" fill="#fff"/>
+      <circle cx="38" cy="44" r="18" fill="#e6dfd5"/>
+      <rect x="70" y="23" width="84" height="10" rx="5" fill="#313239"/>
+      <rect x="70" y="47" width="248" height="9" rx="4.5" fill="#d2cdc4"/>
+      <rect x="70" y="65" width="190" height="9" rx="4.5" fill="#e2ddd5"/>
+    </g>
+    <g transform="translate(28 178)">
+      <rect width="389" height="112" rx="16" fill="#fff" stroke="#ff7a66" stroke-width="4"/>
+      <circle cx="38" cy="44" r="18" fill="#ffcfbf"/>
+      <rect x="70" y="23" width="108" height="10" rx="5" fill="#313239"/>
+      <rect x="70" y="47" width="264" height="9" rx="4.5" fill="#c9c3bb"/>
+      <rect x="70" y="65" width="218" height="9" rx="4.5" fill="#ddd8d0"/>
+      <rect x="278" y="82" width="84" height="20" rx="10" fill="#ff7a66"/>
+    </g>
+    <g transform="translate(28 304)">
+      <rect width="389" height="88" rx="16" fill="#fff"/>
+      <circle cx="38" cy="44" r="18" fill="#d9e6eb"/>
+      <rect x="70" y="23" width="68" height="10" rx="5" fill="#313239"/>
+      <rect x="70" y="47" width="274" height="9" rx="4.5" fill="#d2cdc4"/>
+      <rect x="70" y="65" width="160" height="9" rx="4.5" fill="#e2ddd5"/>
+    </g>
+  </g>
+  <path d="M554 304h70" stroke="#ff7a66" stroke-width="8" stroke-linecap="round"/>
+  <path d="m606 284 21 20-21 20" fill="none" stroke="#ff7a66" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(662 132)">
+    <rect width="450" height="360" rx="28" fill="#090b0f" filter="url(#shadow)"/>
+    <path d="M0 0h450v70H0z" fill="#1d2026"/>
+    <circle cx="34" cy="35" r="7" fill="#ff675f"/>
+    <text x="54" y="42" fill="#fff" font-family="sans-serif" font-size="17" font-weight="700">OBS BROWSER</text>
+    <g transform="translate(52 114)">
+      <rect width="346" height="184" rx="24" fill="#f7f3eb"/>
+      <rect width="346" height="15" rx="7.5" fill="#ff7a66"/>
+      <text x="30" y="58" fill="#ff5f4a" font-family="sans-serif" font-size="18" font-weight="800">おたより</text>
+      <text x="30" y="100" fill="#22242a" font-family="sans-serif" font-size="24" font-weight="700">活動1周年、</text>
+      <text x="30" y="134" fill="#22242a" font-family="sans-serif" font-size="24" font-weight="700">おめでとうございます！</text>
+      <text x="30" y="165" fill="#74716c" font-family="sans-serif" font-size="16">月見だんご さん</text>
+    </g>
+  </g>
+  <text x="88" y="588" fill="#fff" font-family="sans-serif" font-size="31" font-weight="800">おたより幕</text>
+  <text x="268" y="588" fill="#aaa7a2" font-family="sans-serif" font-size="22">届く。選ぶ。映す。</text>
+</svg>
